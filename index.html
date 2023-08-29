@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ducky time</title>
         <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <nav>
@@ -19,7 +25,7 @@
             </div>
         </nav>
         <header id="home">
-            <h1>Hello World!</h1>
+            <h1>Don't Panic -- Duckbert is Here!</h1>
             <p>
                 ..and hello you! This is your first ever coding project. At the
                 end of this workshop you will have created your first little
@@ -32,13 +38,19 @@
         <main>
             <section id="duck">
                 <div class="text">
-                    <h2>Some info about the duck</h2>
-                    <p>Words and words and some more description.</p>
+                    <h2>Who is Duckbert?</h2>
+                    <p>
+                        Duckbert is your friend. He is here to help you with all
+                        of your coding problems. Talk to him, step by step, to
+                        explain what you need to do. Suddenly it makes a lot
+                        more sense.
+                    </p>
                 </div>
-                <div class="duck">
+                <div class="ducky">
                     <a
                         href="https://lilalu-shop.com/media/image/35/9c/a5/lilalu-quietscheente-gelb-yellow-rubber-duck-HL.png"
                         ><img
+                            class="duck-pic"
                             src="https://lilalu-shop.com/media/image/35/9c/a5/lilalu-quietscheente-gelb-yellow-rubber-duck-HL.png"
                             alt="A rubber ducky"
                     /></a>
@@ -72,17 +84,24 @@
         </main>
         <footer id="contact">
             <h2>Contact Us</h2>
-            <form action="">
-                <input type="text" />
-                <textarea cols="30" rows="10"></textarea>
-                <button>Submit</button>
-            </form>
-            <div>Proudly created by <em>Garrett</em></div>
-            <a href="https://github.com/gjlander"
-                ><img
-                    src="./images/CSS-Live-Coding-2-1-300x300.png"
-                    alt="GitHub icon"
-            /></a>
+            <div class="form-container">
+                <form action="">
+                    <input type="text" placeholder="Name" /> <br />
+                    <textarea
+                        cols="30"
+                        rows="10"
+                        placeholder="Write your message here..."
+                    ></textarea>
+                    <br />
+                    <button>Submit</button>
+                </form>
+                <div>Proudly created by <em>Garrett</em></div>
+                <a href="https://github.com/gjlander"
+                    ><img
+                        src="./images/CSS-Live-Coding-2-1-300x300.png"
+                        alt="GitHub icon"
+                /></a>
+            </div>
         </footer>
     </body>
 </html>
